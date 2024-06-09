@@ -1,0 +1,134 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 2.0;
+    color:#000000;
+    background: url('https://wallpaperaccess.com/full/5651990.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Container */
+.container {
+    width: 70%
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: rgba(51, 51, 51, 0.8); /* Added opacity */
+    color:#a89432;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header .tagline {
+    font-size: 1.4em;
+    font-style: monoserif;
+    color: #dddddd;
+}
+
+/* Section */
+section {
+    padding: 30px 0;
+    background: rgba(255, 255, 255, 0.8); /* Added background with opacity */
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about img {
+    margin-right: 20px;
+    width: 160px;
+    height: 160px;
+    border: 7px solid #dddddd; /* Optional: Add a border to the image */
+    border-radius: 75%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Resume Section */
+#resume {
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background: #555;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: rgba(51, 51, 51, 0.8); /* Added opacity */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
